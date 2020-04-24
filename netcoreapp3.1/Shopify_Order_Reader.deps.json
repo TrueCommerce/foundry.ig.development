@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ShopifyOrderReader/1.0.0": {
+      "Shopify_Order_Reader/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.2.0",
           "Foundry.IntegrationGateway.Common": "0.1.2-beta",
@@ -16,12 +16,12 @@
           "System.Data.SQLite": "1.0.111",
           "System.Data.SqlClient": "4.6.1",
           "Accellos.InterfaceCommon": "4.1.0.0",
-          "HighJump.Integrations.HJ1PUtils": "1.2.1.2",
+          "HighJump.Integrations.HJ1PUtils": "1.4.7397.24610",
           "ShopifyUtils": "1.0.0.0",
           "TrueCommerce.Integrations.IntegrationTouchpoint": "1.0.0.0"
         },
         "runtime": {
-          "ShopifyOrderReader.dll": {}
+          "Shopify_Order_Reader.dll": {}
         }
       },
       "EntityFramework/6.2.0": {
@@ -1070,11 +1070,11 @@
           }
         }
       },
-      "HighJump.Integrations.HJ1PUtils/1.2.1.2": {
+      "HighJump.Integrations.HJ1PUtils/1.4.7397.24610": {
         "runtime": {
           "HighJump.Integrations.HJ1PUtils.dll": {
-            "assemblyVersion": "1.2.1.2",
-            "fileVersion": "1.2.1.2"
+            "assemblyVersion": "1.4.7397.24610",
+            "fileVersion": "1.4.7397.24610"
           }
         }
       },
@@ -1153,7 +1153,7 @@
     }
   },
   "libraries": {
-    "ShopifyOrderReader/1.0.0": {
+    "Shopify_Order_Reader/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1910,7 +1910,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "HighJump.Integrations.HJ1PUtils/1.2.1.2": {
+    "HighJump.Integrations.HJ1PUtils/1.4.7397.24610": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

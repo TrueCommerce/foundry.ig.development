@@ -1,11 +1,14 @@
 ﻿{
+  "RecencyDays": 10,
+  "ApiVersion": 201907,
+  "OrderStatus": "",
   "ProcessingAmountShopify": 10,
   "ShopifyFulfillmentStatus": "",
   "OrderPrefix": "SHOP",
   "FinancialStatus": "Paid",
   "ShopifyUrl": "https://integration-jalasoft.myshopify.com/",
-  "ShopifyApiPassword": "13d2dfef8e63da7101a652f0a19a3e4c",
   "ShopifyApiKey": "baef7033e7767f6b04226a4728bb2791",
+  "ShopifyApiPassword": "13d2dfef8e63da7101a652f0a19a3e4c",
   "CycleTime": "0.00:00:15",
   "LifeSpan": "0.02:00:00"
 }
