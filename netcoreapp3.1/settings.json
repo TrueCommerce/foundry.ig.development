@@ -1,0 +1,6 @@
+{
+  "Path": "C:/Testing/Outbound",
+  "FileExtension": "*.txt",
+  "LifeSpan": "0.02:00:00",
+  "IsDeleteReadFiles": true
+}
