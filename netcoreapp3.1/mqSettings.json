@@ -1,0 +1,12 @@
+{
+  "OrchestrationId": null,
+  "ElasticSearchUrl": "http://168.61.42.180:9200",
+  "FromQueue": {
+    "HostName": "168.61.42.180",
+    "Username": "TCFoundryRabbit",
+    "Password": "RabbitWe@rW01v3s",
+    "QueueName": "Test.IG.RawJson",
+    "PoolId": null
+  },
+  "ToQueue": null
+}
