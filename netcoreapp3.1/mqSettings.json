@@ -1,10 +1,12 @@
 {
-  "OrchestrationId": "d5cd2a9a-e26d-444d-98c2-1455c5369937",
+  "OrchestrationId": "fbe1810d-70bf-42ec-bbc3-b8e8d0ae0b99",
+  "RequeueTimeout": "00:00:05",
+  "ElasticSearchUrl": "http://168.61.42.180:9200",
   "FromQueue": {
-    "HostName": "rodionpronin.com",
-    "Username": "tc",
-    "Password": "tc",
-    "QueueName": "Invoices.Transformed",
+    "HostName": "168.61.42.180",
+    "Username": "TCFoundryRabbit",
+    "Password": "RabbitWe@rW01v3s",
+    "QueueName": "TcXml",
     "PoolId": "DiskWriter"
   },
   "ToQueue": null
