@@ -1,6 +1,13 @@
 {
-  "Path": "C:/Testing/Outbound",
-  "FileExtension": "*.txt",
-  "LifeSpan": "0.02:00:00",
-  "IsDeleteReadFiles": true
+  "OrchestrationId": "990b29f4-33a1-45f4-81d4-59ca3652c909",
+  "RequeueTimeout": "00:00:05",
+  "ElasticSearchUrl": "http://168.61.42.180:9200",
+  "FromQueue": {
+    "HostName": "168.61.42.180",
+    "Username": "TCFoundryRabbit",
+    "Password": "RabbitWe@rW01v3s",
+    "QueueName": "TcXml",
+    "PoolId": "DiskWriter"
+  },
+  "ToQueue": null
 }
