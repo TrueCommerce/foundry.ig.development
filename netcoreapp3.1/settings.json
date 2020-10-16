@@ -1,4 +1,7 @@
 {
+  "Path": "C:\\Testing\\All",
+  "FileExtension": ".xml",
+
   "OrchestrationId": "990b29f4-33a1-45f4-81d4-59ca3652c909",
   "RequeueTimeout": "00:00:05",
   "ElasticSearchUrl": "http://168.61.42.180:9200",
@@ -10,4 +13,5 @@
     "PoolId": "DiskWriter"
   },
   "ToQueue": null
+
 }
