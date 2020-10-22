@@ -1,12 +1,12 @@
 {
-  "OrchestrationId": "fbe1810d-70bf-42ec-bbc3-b8e8d0ae0b99",
+  "OrchestrationId": "990b29f4-33a1-45f4-81d4-59ca3652c909",
   "RequeueTimeout": "00:00:05",
   "ElasticSearchUrl": "http://168.61.42.180:9200",
   "FromQueue": {
     "HostName": "168.61.42.180",
     "Username": "TCFoundryRabbit",
     "Password": "RabbitWe@rW01v3s",
-    "QueueName": "TcXml",
+    "QueueName": "DatahubOrderJson",
     "PoolId": "DiskWriter"
   },
   "ToQueue": null

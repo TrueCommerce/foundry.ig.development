@@ -1,5 +1,5 @@
 {
   "Path": "C:\\Testing\\All",
-  "FilePrefix": null,
-  "FileExtension": ".xml"
+  "FilePrefix": "test_",
+  "FileExtension": ".json"
 }
