@@ -10,7 +10,7 @@
         "dependencies": {
           "Foundry.Core.Shared": "2.0.1",
           "Foundry.IntegrationGateway.Common": "0.1.4-beta",
-          "RestSharp": "106.11.7"
+          "TrueCommerce.DataHub.Models": "5.0.130.30"
         },
         "runtime": {
           "DatahubOrderWriter.dll": {}
@@ -47,7 +47,7 @@
           "Microsoft.Extensions.Configuration": "3.1.9",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.4",
           "Microsoft.Extensions.Configuration.Json": "3.1.9",
-          "System.ComponentModel.Annotations": "4.5.0"
+          "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Foundry.Shared.dll": {
@@ -541,14 +541,6 @@
           }
         }
       },
-      "RestSharp/106.11.7": {
-        "runtime": {
-          "lib/netstandard2.0/RestSharp.dll": {
-            "assemblyVersion": "106.11.7.0",
-            "fileVersion": "106.11.7.0"
-          }
-        }
-      },
       "runtime.native.System/4.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
@@ -568,7 +560,7 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "System.ComponentModel.Annotations/4.5.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {},
       "System.Diagnostics.Debug/4.0.11": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1",
@@ -802,14 +794,24 @@
           "System.Runtime": "4.1.0"
         }
       },
+      "TrueCommerce.DataHub.Models/5.0.130.30": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TrueCommerce.DataHub.Models.dll": {
+            "assemblyVersion": "5.0.130.30",
+            "fileVersion": "5.0.130.30"
+          }
+        }
+      },
       "Foundry.IntegrationGateway.Common/0.1.4-beta": {
         "dependencies": {
           "Foundry.Core.Shared": "2.0.1",
           "Microsoft.Extensions.Configuration.Json": "3.1.9",
           "NEST": "7.9.0",
           "Newtonsoft.Json": "12.0.3",
-          "RabbitMQ.Client": "6.2.1",
-          "RestSharp": "106.11.7"
+          "RabbitMQ.Client": "6.2.1"
         },
         "runtime": {
           "Foundry.IntegrationGateway.Common.dll": {}
@@ -1152,13 +1154,6 @@
       "path": "rabbitmq.client/6.2.1",
       "hashPath": "rabbitmq.client.6.2.1.nupkg.sha512"
     },
-    "RestSharp/106.11.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NzndH096CTulvq+ihr7u1mBJ29oukdi9A8bypQJk+kaHxbRzTTrtgsEEQAb04ptTUZmQa7cgo7uF5z7NuEPX1Q==",
-      "path": "restsharp/106.11.7",
-      "hashPath": "restsharp.106.11.7.nupkg.sha512"
-    },
     "runtime.native.System/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1187,12 +1182,12 @@
       "path": "system.collections/4.0.11",
       "hashPath": "system.collections.4.0.11.nupkg.sha512"
     },
-    "System.ComponentModel.Annotations/4.5.0": {
+    "System.ComponentModel.Annotations/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
-      "path": "system.componentmodel.annotations/4.5.0",
-      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+      "sha512": "sha512-0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+      "path": "system.componentmodel.annotations/4.7.0",
+      "hashPath": "system.componentmodel.annotations.4.7.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.0.11": {
       "type": "package",
@@ -1396,6 +1391,13 @@
       "sha512": "sha512-k1S4Gc6IGwtHGT8188RSeGaX86Qw/wnrgNLshJvsdNUOPP9etMmo8S07c+UlOAx4K/xLuN9ivA1bD0LVurtIxQ==",
       "path": "system.threading.tasks/4.0.11",
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
+    },
+    "TrueCommerce.DataHub.Models/5.0.130.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5ZDwrQFLcK3W7JCi++soZ15UB6zsgSzMKHne8OnItFP6Y5zfcwlr7MvYFConYf/INRvL42ngFsCp7LVt0JYs4Q==",
+      "path": "truecommerce.datahub.models/5.0.130.30",
+      "hashPath": "truecommerce.datahub.models.5.0.130.30.nupkg.sha512"
     },
     "Foundry.IntegrationGateway.Common/0.1.4-beta": {
       "type": "project",

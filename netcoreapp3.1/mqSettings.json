@@ -9,6 +9,5 @@
     "QueueName": "DatahubOrderJson",
     "PoolId": "DatahubOrderWriter"
   },
-  "ToQueue": null,
-  "LifeSpan": "00:00:00"
+  "ToQueue": null
 }
