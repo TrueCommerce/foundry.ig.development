@@ -3,8 +3,8 @@
   "FromQueue": null,
   "ToQueue": {
     "HostName": "localhost",
-    "Username": "admin",
-    "Password": "123",
+    "Username": "***",
+    "Password": "***",
     "QueueName": "ShopifyOrders",
     "PoolId": null
   }
